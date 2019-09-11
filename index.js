@@ -23,5 +23,3 @@ function deleteFromObjectByKey(obj, key) {
    return newObj
 
 }
-
-
