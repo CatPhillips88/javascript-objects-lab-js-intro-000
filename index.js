@@ -23,3 +23,8 @@ function deleteFromObjectByKey(obj, key) {
    return newObj
 
 }
+
+function destructivelyDeleteFromObjectByKey(obj, key) {
+  delete key.value;
+  return obj
+}
